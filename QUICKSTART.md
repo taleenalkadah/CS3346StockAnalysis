@@ -1,7 +1,3 @@
-# CS3346StockAnalysis
-
-Created by Nada, Hartej, Nish, and Taleen.
-
 # Quick Start Guide
 
 ## Installation
@@ -26,12 +22,6 @@ This will:
 3. Prepare merged dataset
 4. Train the model
 5. Make predictions
-
-You can find stock tickers on Yahoo Finance. Here are a couple for reference:
-Apple = AAPL
-Tesla = TSLA
-Google = GOOGL
-Microsoft = MSFT
 
 ## Step-by-Step Run
 
