@@ -28,6 +28,7 @@ This will:
 5. Make predictions
 
 You can find stock tickers on Yahoo Finance. Here are a couple for reference:
+
 Apple = AAPL
 Tesla = TSLA
 Google = GOOGL
