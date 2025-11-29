@@ -91,6 +91,11 @@ python 1_data_collection.py AAPL 2020-01-01
 - **Model not found**: Run step 4 (training) first
 - **No news data**: System will use neutral sentiment (0.2)
 - **Memory errors**: Reduce batch_size or look_back in training
+- **yFinance error**: Run:
+```bash
+pip uninstall yfinance
+pip install yfinance --upgrade --no-cache-dir
+```
 
 ## Expected Runtime
 
