@@ -16,7 +16,7 @@ Created by Nada, Hartej, Nish, and Taleen.
 Run the complete pipeline for a stock ticker:
 
 ```bash
-python run_all.py AAPL
+python run_all.py TSLA
 ```
 
 This will:
