@@ -41,8 +41,8 @@ def main():
         ("1_data_collection.py", [start_date]),
         ("2_sentiment_analysis.py", []),
         ("3_data_preparation.py", []),
-        # ("4_model_training.py", []),
-        # ("5_prediction.py", [])
+        ("4_model_training.py", []),
+        ("5_prediction.py", [])
     ]
     
     for script, args in steps:
