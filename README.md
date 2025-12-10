@@ -11,6 +11,12 @@ Created by Nada, Hartej, Nish, and Taleen.
    pip install -r requirements.txt
    ```
 
+   **IMPORTANT!!!**: If you receieve **0 DATA COLLECTED** during your data collection or see a **yfinance ERROR** PLEASE run:
+   ```bash
+   pip uninstall yfinance
+   pip install yfinance --upgrade --no-cache-dir
+   ```
+
 ## Quick Run (All Steps)
 
 Run the complete pipeline for a stock ticker:
