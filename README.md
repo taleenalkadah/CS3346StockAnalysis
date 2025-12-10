@@ -4,18 +4,19 @@ Created by Nada, Hartej, Nish, and Taleen.
 
 # Quick Start Guide
 
-## Installation
+## Set Up
 
 1. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-   **IMPORTANT!!!**: If you receieve **0 DATA COLLECTED** during your data collection or see a **yfinance ERROR** PLEASE run:
+2. In order to avoid getting a yfinance error, run the code below:
    ```bash
    pip uninstall yfinance
    pip install yfinance --upgrade --no-cache-dir
    ```
+It is important to mention this requires python version 3.10/3.11. PyTorch does not support the newer versions and therefore will not install.
 
 ## Quick Run (All Steps)
 
@@ -42,6 +43,8 @@ Tesla = TSLA
 Google = GOOGL
 
 Microsoft = MSFT
+
+You may also specify the start date of stock data collection, otherwise it will default to 2015-01-01.
 
 ## Step-by-Step Run
 
